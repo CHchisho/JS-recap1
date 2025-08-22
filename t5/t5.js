@@ -1,8 +1,8 @@
 function main() {
   const log = document.getElementById('log');
-  
+
   const n = Number(prompt('Enter a natural number:'));
-  
+
   if (n > 0 && Number.isInteger(n)) {
     let sum = 0;
     for (let i = 1; i <= n; i++) {
